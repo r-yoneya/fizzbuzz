@@ -26,6 +26,6 @@ void fizzbuzz(int n) {
 }
 
 int main(int argc, char* argv[]) {
-    fizzbuzz(atoi(argv[1]));
+    fizzbuzz(atoi(argv[argc-1]));
     return 0;
 }
